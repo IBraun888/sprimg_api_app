@@ -9,5 +9,5 @@ import org.springframework.web.bind.annotation.RestController
 @RequestMapping("/api/hello")
 class HelloWorldController {
     @GetMapping
-    fun helloWorld(): String = "Hello World Api"
+    fun helloWorld(): String = "Hello World Api my PRO"
 }
