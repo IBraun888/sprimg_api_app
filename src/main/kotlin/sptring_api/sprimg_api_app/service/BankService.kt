@@ -7,5 +7,7 @@ import sptring_api.sprimg_api_app.model.Bank
 @Service
 class BankService(private val dataSource: BankDataSource) {
     fun getBanks(): Collection<Bank> = dataSource.retrieveBanks()
+    fun getBanks(accountNumber: String): Bank  = dataSource.retrieveBanks(accountNumber)
 
-}
+    }
+
