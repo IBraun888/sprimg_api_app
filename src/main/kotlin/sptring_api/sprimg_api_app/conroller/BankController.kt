@@ -1,4 +1,4 @@
-package sptring_api.sprimg_api_app.comroller
+package sptring_api.sprimg_api_app.conroller
 
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
